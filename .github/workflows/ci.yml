@@ -8,8 +8,7 @@ permissions:
   contents: read
 
 jobs:
-  # --- PREMIER JOB : Vérifications rapides ---
-  fast-checks:
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -30,15 +29,6 @@ jobs:
         run: |
           node --check app.js
           node --check server.js
-
-  # --- DEUXIÈME JOB : Docker (ne se lance que si fast-checks réussit) ---
-  container-checks:
-    needs: fast-checks
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v7
 
       - name: Build Docker image
         working-directory: labs/20-containerized-node-app
