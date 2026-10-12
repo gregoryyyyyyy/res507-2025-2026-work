@@ -31,7 +31,7 @@ jobs:
           node --check app.js
           node --check server.js
 
-  # --- DEUXIÈME JOB : Docker (ne se lance que si fast-checks réussit) ---
+  # --- DEUXIÈME JOB : Docker ---
   container-checks:
     needs: fast-checks
     runs-on: ubuntu-latest
