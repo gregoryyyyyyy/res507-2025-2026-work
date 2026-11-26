@@ -1,0 +1,19 @@
+27m         Warning   Unhealthy           pod/quote-app-69fbbcff49-6khq2    Readiness probe failed: Get "http://10.42.0.20:3000/health": dial tcp 10.42.0.20:3000: connect: connection refused
+27m         Normal    Killing             pod/quote-app-69fbbcff49-6khq2    Stopping container quote-app
+26m         Warning   Unhealthy           pod/quote-app-57b88c776b-6psq8    Readiness probe failed: HTTP probe failed with statuscode: 404
+26m         Normal    Killing             pod/quote-app-57b88c776b-6psq8    Stopping container quote-app
+24m         Warning   Unhealthy           pod/quote-app-57b88c776b-dtkkw    Readiness probe failed: HTTP probe failed with statuscode: 404
+24m         Normal    Killing             pod/quote-app-57b88c776b-dtkkw    Stopping container quote-app
+24m         Normal    Killing             pod/service-check                 Stopping container service-check
+12s         Warning   Unhealthy           pod/quote-app-6b69879984-plt2v    Liveness probe failed: HTTP probe failed with statuscode: 404
+2m6s        Normal    Killing             pod/quote-app-69fbbcff49-5gvjh    Stopping container quote-app
+11s         Warning   Unhealthy           pod/quote-app-6b69879984-mh58z    Liveness probe failed: HTTP probe failed with statuscode: 404
+118s        Normal    Killing             pod/quote-app-69fbbcff49-h82kw    Stopping container quote-app
+11s         Warning   Unhealthy           pod/quote-app-6b69879984-plt2v    Readiness probe failed: Get "http://10.42.0.27:3000/health": dial tcp 10.42.0.27:3000: connect: connection refused
+12s         Normal    Killing             pod/quote-app-6b69879984-plt2v    Container quote-app failed liveness probe, will be restarted
+3s          Warning   Unhealthy           pod/quote-app-6b69879984-7trhj    Liveness probe failed: HTTP probe failed with statuscode: 404
+111s        Normal    Killing             pod/quote-app-69fbbcff49-qwnqv    Stopping container quote-app
+11s         Normal    Killing             pod/quote-app-6b69879984-mh58z    Container quote-app failed liveness probe, will be restarted
+13s         Normal    Killing             pod/quote-app-6b69879984-7trhj    Container quote-app failed liveness probe, will be restarted
+57s         Warning   Unhealthy           pod/quote-app-6b69879984-7trhj    Readiness probe failed: Get "http://10.42.0.29:3000/health": EOF
+10s         Warning   Unhealthy           pod/quote-app-6b69879984-mh58z    Readiness probe failed: Get "http://10.42.0.28:3000/health": dial tcp 10.42.0.28:3000: connect: connection refused

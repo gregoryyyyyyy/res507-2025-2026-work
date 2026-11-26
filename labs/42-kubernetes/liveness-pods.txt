@@ -1,0 +1,4 @@
+NAME                         READY   STATUS             RESTARTS      AGE
+quote-app-6b69879984-7trhj   1/1     Running            5 (12s ago)   118s
+quote-app-6b69879984-mh58z   0/1     CrashLoopBackOff   5 (10s ago)   2m6s
+quote-app-6b69879984-plt2v   0/1     CrashLoopBackOff   5 (12s ago)   2m13s
